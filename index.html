@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Xiezeyu's Private Site</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<!-- start-smooth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---end-smooth-scrolling-->
+<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+<!--End-top-nav-script-->
+</head>
+<body>
+	<!--start-header-->
+			<div id="home" class="banner">
+					<div class="header">
+						<div class="container">
+							<div class="logo">
+								<a href="#"><img src="images/logo.png" alt="Garipan"></a>
+							</div>
+							<!--start-top-nav-->
+							 <nav class="top-nav">
+								<ul class="top-nav">
+									<li><a href="index.html">首页</a></li>&nbsp;/
+									<li><a href="artical.html">文章</a></li>&nbsp;/
+									<li><a href="works.html">作品</a></li>&nbsp;/
+									<li><a href="#about" class="scroll">关于我</a></li>
+								</ul>
+								<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+							</nav>
+							<div class="clearfix"> </div>
+						</div>
+				</div>
+				<div class="banner-text">
+					<div  id="top" class="callbacks_container">
+			      		<ul class="rslides" id="slider4">
+			        	<li>
+							<div class="banner-top">
+								<h1>网站正在建设中</h1>
+								<p1>
+									<font color="white" size="4" face="Verdana"><br />Site is building now...</font></p1>
+									<div class="bttn">
+									<a href="https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5">探索世界</a>
+<!--						</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-top">
+								<h1>WE NEED THE TONIC OF WOESTHEID</h1>
+								<div class="bttn">
+									<a href="#">Read more2</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-top">
+								<h1>WE NEED THE TONIC OF WILDNESS</h1>
+								<div class="bttn">
+									<a href="#">Read more3</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-top">
+								<h1>WE NEED THE TONIC OF WOESTHEID</h1>
+								<div class="bttn">
+									<a href="#">Read more</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-top">
+								<h1>WE NEED THE TONIC OF WILDNESS</h1>
+								<div class="bttn">
+									<a href="#">Read more</a>
+								-->
+								</div>
+							</div>
+						</li>
+			      </ul>
+			    </div>
+			    <div class="clearfix"> </div>
+				</div>
+			</div>
+		<!--End-header-->
+		<!--Slider-Starts-Here-->
+				<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+
+			    });
+			  </script>
+			<!--End-slider-script-->
+			<!--about-starts-->
+			<div class="time">
+				<div class="container">
+					<div class="time-top">
+						<h3></h3>
+						<p>现年24岁的童叟无欺熊耶耶是一名豆瓣网友，他热爱生活，永远精力旺盛。</p>
+					</div>
+				</div>
+			</div>
+<!--页尾动画及脚本-->
+<!-- For-Mobile-Apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Tradeaux a Responsive Web Template, Bootstrap Web Templates, Flat Web Templates, Android Compatible Web Template, Smartphone Compatible Web Template, Free Webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //For-Mobile-Apps -->
+
+	<!-- Bootstrap-Core-CSS --> <link href="css/bootstrap.min1.css" rel="stylesheet">
+	<!-- Custom-Theme-Styling --> <link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Owl-Carousel-Styling --> <link rel="stylesheet" href="css/owl.carousel1.css" type="text/css" media="all">
+
+	<!-- Web-Fonts -->
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+	<!-- //Web-Fonts -->
+
+	<script src="js/modernizr.custom.js"></script>
+
+</head>
+<body>
+
+
+    <!-- Footer-Starts-Here -->
+    <div class="footer">
+
+        <div class="container" ID="about">
+
+            <div class="footer-info slideanim">
+                <div class="col-md-3 footer-info-grid links">
+                	<h4>快速入口</h4>
+                	<ul>
+	                    <li><a href="#">首页</a></li>
+	                    <li><a href="#cover">我的作品</a></li>
+	                </ul>
+                </div>
+                <div class="col-md-3 footer-info-grid services">
+                	<h4>我的技能</h4>
+                	<ul>
+	                    <li><a class="mail" href="http://www.douban.com" color="white">视频制作</a></li>
+	                    <li>互联网/IT</li>
+	                    <li>艺术</li>
+	                    <li>历史</li>
+	                    <li>互联网传播</li>
+	                </ul>
+                </div>
+                <div class="col-md-3 footer-info-grid address">
+                	<h4>联系方式</h4>
+                	<address>
+	                    <ul>
+	                    	<li>就职于<a class="mail" href="http://www.mioji.com">[妙计旅行]</a></li>
+	                    	<li>互联网公关</li>
+	                    	<li>Beijing,China</li>
+	                    	<li>Email : <a class="mail" href="mailto:xiezeyu@my.com">xiezeyu(at)my.com</a></li>
+	                    </ul>
+	               </address>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="social-icons">
+	            <ul class="social slideanim" id="follow">
+	                <li><a href="#" class="facebook" title="豆瓣"></a></li>
+	                <li><a href="#" class="twitter" title="新浪微博"></a></li>
+	                <li><a href="#" class="googleplus" title="Go to Our Google Plus Account"></a></li>
+	                <li><a href="#" class="instagram" title="Go to Our Instagram Account"></a></li>
+	                <li><a href="#" class="youtube" title="Go to Our Youtube Channel"></a></li>
+	            </ul>
+            </div>
+
+            <div class="copyright slideanim">
+                <p>&copy; 2016 Garipan. All Rights Reserved </p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <!-- //Footer-Ends-Here -->
+
+    <!-- Supportive-JavaScript --><script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Necessary-JS-File-For-Bootstrap --><script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- SmoothScroll-JavaScript -->
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar li a, .footer a[href='#myPage']").on('click', function(event) {
+
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function(){
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+            });
+
+            $(window).scroll(function() {
+            $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                  $(this).addClass("slide");
+                }
+                });
+            });
+        })
+    </script>
+    <!-- //SmoothScroll-JavaScript -->
+
+    <!-- Slideanim-JavaScript -->
+    <script type="text/javascript">
+        $(window).scroll(function() {
+            $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+    </script>
+    <!-- //Slideanim-JavaScript -->
+
+    <!-- Owl-Carousel-JavaScript -->
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#owl-demo").owlCarousel ({
+				items : 4,
+				lazyLoad : true,
+				autoPlay : true,
+				pagination : false,
+			});
+		});
+	</script>
+    <!-- //Owl-Carousel-JavaScript -->
+
+    <!-- Banner-Slider-JavaScript -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+			  auto: true,
+			  nav: true,
+			  speed: 500,
+			  namespace: "callbacks",
+			  pager: true,
+			});
+		  });
+	</script>
+    <!-- //Banner-Slider-JavaScript -->
+
+	<!-- Slide-To-Top JavaScript (No-Need-To-Change) -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+			};
+			*/
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    <!-- //Slide-To-Top JavaScript -->
+
+	<!-- Smooth-Scrolling-JavaScript -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!-- //Smooth-Scrolling-JavaScript -->
+
+	<!-- FlexSlider-JavaScript -->
+    <script defer src="js/jquery.flexslider1.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            SyntaxHighlighter.all();
+        });
+        $(window).load(function(){
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function(slider){
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>
+    <!-- //FlexSlider-JavaScript -->
+
+<!--页尾动画及脚本结束-->
+
+</body>
+</html>
